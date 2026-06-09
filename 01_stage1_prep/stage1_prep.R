@@ -1,8 +1,8 @@
 ################################################################################
 ### STAGE 1 — Prepare simulation folders
 ### Climate scenarios: baseline, RCP45, RCP85
-### For Narval (Calcul Québec) — account: def-dcyr
-### Original script by Dominic Cyr — adapted by Wena
+### For Narval (Calcul Québec) 
+### Original script by Dominic Cyr 
 ################################################################################
 
 rm(list = ls())
