@@ -9,16 +9,15 @@
 #SBATCH --output=/home/rligalig/scratch/LANDIS/logs/stage2_%j.out
 #SBATCH --error=/home/rligalig/scratch/LANDIS/logs/stage2_%j.err
 #SBATCH --mail-type=BEGIN,END,FAIL
-#SBATCH --mail-user=rligalig@uqam.ca
-
+#SBATCH --mail-user=ligalig.rowena@courrier.uqam.ca
 ##############################################################################
 ## STAGE 2 — Run LANDIS-II simulations
 ## Submit AFTER Stage 1 is complete:  sbatch submit_stage2.sh
 ## Or chain automatically after Stage 1:
 ##   sbatch --dependency=afterok:<STAGE1_JOBID> submit_stage2.sh
 ##
-## NOTE: --time=48:00:00 is a generous estimate for ~120 simulations
-##       Adjust down once you know how long each simulation takes
+## NOTE: This runs simulations sequentially — NOT RECOMMENDED for large runs
+## Use submit_parallel.sh instead for parallel execution
 ##############################################################################
 
 echo "=========================================="
