@@ -1,8 +1,8 @@
 ################################################################################
 ### STAGE 3 — Process ForCS outputs
-### For Narval (Calcul Québec) — account: def-dcyr
+### For Narval (Calcul Québec)
 ### Sequential processing with gc() after each sim to avoid memory crashes
-### Original script by Dominic Cyr — adapted by Wena
+### Original script by Dominic Cyr
 ################################################################################
 
 rm(list = ls())
