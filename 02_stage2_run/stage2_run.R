@@ -1,8 +1,8 @@
 ################################################################################
 ### STAGE 2 — Run LANDIS-II simulations
-### For Narval (Calcul Québec) — account: def-dcyr
+### For Narval (Calcul Québec)
 ### Runs simulations sequentially — LANDIS-II uses its own internal threads
-### Original script by Dominic Cyr — adapted by Wena
+### Original script by Dominic Cyr
 ################################################################################
 
 rm(list = ls())
